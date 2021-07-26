@@ -1,0 +1,28 @@
+.chart{
+    width: 450px;
+    box-shadow: 10px 10px 12px -8px rgba(0,0,0,0.86);
+    border: 1px solid #bbb;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.bar-chart{
+    width : 600px;
+    height : 400px;    
+}
+
+.pie-chart{
+    margin: 1rem 0;
+}
+
+@media (max-width : 768px){
+    .chart{
+        width: 100%;
+    }
+
+    .bar-chart{
+        width: 100%;
+    }
+}
+

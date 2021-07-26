@@ -1,0 +1,42 @@
+.dashboard{
+    background:#f1f5f6;
+    padding: 2rem 8rem;
+}
+
+.dashboard-charts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.emp-form-div , .emp-list-div{
+    background: #fff;
+    margin : 2rem 0;
+    padding : 1rem;
+    box-shadow: 10px 10px 12px -8px rgba(0,0,0,0.86);
+    border-radius: 10px;
+    border : 1px solid #bbb;
+
+}
+
+.emp-form-div h3 , .emp-list-div h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+@media (max-width : 768px){
+    .dashboard{
+        padding: 2rem ;
+    }
+    .dashboard-charts{
+        display: block;
+    }
+}
+
+
